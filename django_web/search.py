@@ -9,6 +9,11 @@ def search_form(request):
     return render_to_response('search_form.html')
 
 
+# 表单
+def test(request):
+    return render_to_response('test.html')
+
+
 # 接收POST请求数据
 def search_post(request):
     ctx ={}
